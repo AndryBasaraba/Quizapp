@@ -1,0 +1,43 @@
+
+.app {
+    position: relative;
+    margin: 0 auto;
+    height: 560px;
+    width: 320px;
+
+    border: 1px solid black;
+    border-radius: 8px;;
+}
+
+.title {
+    height: 60px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+
+    font-size: 24px;
+}
+
+.nav-menu {
+    position: absolute;
+    bottom: 0;
+
+    display: flex;
+
+    height: 60px;
+    width: 100%;
+
+    border-top: 1px solid black;
+}
+
+.nav-menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    flex-grow: 1;
+}
